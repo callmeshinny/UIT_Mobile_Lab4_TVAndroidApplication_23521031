@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android build outputs
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Logs
+*.log
+
+# Signing / secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# API keys / environment files
+.env
+.env.*
+!*.env.example
+
+# Generated release/debug folders
+app/release/
+app/debug/
