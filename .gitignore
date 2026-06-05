@@ -39,6 +39,9 @@ secrets.properties
 .env.*
 !*.env.example
 
+# Temporary setup/fix scripts
+*.py
+
 # Generated release/debug folders
 app/release/
 app/debug/
